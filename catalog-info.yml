@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-grpc-service
+  description: A simple gRPC service in Go
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
